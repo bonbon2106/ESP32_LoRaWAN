@@ -340,7 +340,7 @@ static void lwan_dev_params_update( void )
 
 	MibRequestConfirm_t mibReq;
 	uint16_t channelsMaskTemp[6];
-	channelsMaskTemp[0] = 0x00FF;
+	channelsMaskTemp[0] = 0x0001;
 	channelsMaskTemp[1] = 0x0000;
 	channelsMaskTemp[2] = 0x0000;
 	channelsMaskTemp[3] = 0x0000;
